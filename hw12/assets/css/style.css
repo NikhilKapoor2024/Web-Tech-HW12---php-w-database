@@ -1,0 +1,79 @@
+/* CSS Document */
+.banner{
+	background-color: grey;
+	font-size: 24;
+	font-weight: bold;
+	padding: 25px;
+	margin: 5px;
+	text-align: center;
+}
+
+.navActive {
+	background-color: #e1e1e1;
+	color:#FFFFFF;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	float: left;
+	width: 18%;
+}
+
+.navItem {
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	float: left;
+	width: 18%;
+}
+
+.navItem:hover {
+	background-color: grey;
+}
+
+.clearFloat {
+	float: clear;
+}
+
+.navMain {
+	width: 100%;
+}
+
+.pageMain {
+	width: 100%;
+}
+
+.pageSide {
+	width: 50%;
+	float: left;
+	border-style: hidden;
+}
+
+.contactMain {
+	width: 100%;
+}
+
+.contactItem {
+	width: 47%;
+	padding: 10px;
+	margin: 5px;
+	background-color: #8AB2C8;
+	float: left;
+	text-align: center;
+	border-style: solid;
+}
+
+.workMain {
+	width: 100%;
+}
+
+.workItem {
+	width: 47%;
+	padding: 10px;
+	margin: 5px;
+	background-color: #FFEF69;
+	float: left;
+	text-align: center;
+	border-style: solid;
+}
