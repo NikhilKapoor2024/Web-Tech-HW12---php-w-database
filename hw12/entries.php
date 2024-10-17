@@ -17,7 +17,7 @@ echo '</table>';
 function refresh_div() {
 	$.ajax( { // ajax call from jquery
 		type: "post", // not needed, but good to know you're getting data asynchronously
-		url: "https://ec2-3-89-220-194.compute-1.amazonaws.com/hw12/query.php", // exact location to send data to
+		url: "https://XXXX/hw12/query.php", // exact location to send data to
 		success: function(data) {
 			$('#entries').html(data); // uses jquery tag to address the results variable and take data recieved from jquery data and feed it into the results element
 		}
