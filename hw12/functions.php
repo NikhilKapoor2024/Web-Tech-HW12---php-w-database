@@ -1,8 +1,8 @@
 <?php
 	function db_connect($db) {
-		$hostname = "localhost";
-		$username = "webuser";
-		$password = "gQF1qR@0J]!pKt0.";
+		$hostname = "XXXX";
+		$username = "XXXX";
+		$password = "XXXX";
 		//$db = "docStorage";
 		$dblink = new mysqli($hostname, $username, $password, $db);
 		if (mysqli_connect_errno()) {
