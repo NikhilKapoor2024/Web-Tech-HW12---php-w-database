@@ -1,6 +1,6 @@
 <?php
 include("functions.php");
-$dblink = db_connect("contact_data");
+$dblink = db_connect("XXXX");
 $sql = "Select * from `user_input` where 1"; // * means "select everything"
 $result = $dblink->query($sql) or
 	die("Something went wrong with: $sql<br>".$dblink->error);
