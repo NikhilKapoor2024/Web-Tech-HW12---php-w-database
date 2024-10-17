@@ -48,13 +48,13 @@
 		}
 		if (isset($_POST['submit']))
 		{
-			$dblink=db_connect("contact_data"); // connect to contact_data database
+			$dblink=db_connect("XXXX"); // connect to XXXX database
 			$firstName=$_REQUEST['fname'];
 			$lastName=$_REQUEST['lname'];
 			$email=$_REQUEST['email'];
 			$uname=$_REQUEST['uname'];
 			$cmnt=$_REQUEST['cmnt'];
-			$sql="Insert into `user_input` (`first_name`, `last_name`, `email`, `username`, `comments`) values";
+			$sql="Insert into `XXXX` (`first_name`, `last_name`, `email`, `username`, `comments`) values";
 			$sql.=" ('$firstName', '$lastName', '$email', '$uname', '$cmnt')";
 			$dblink->query($sql) or
 				die("Something went wrong with $sql".$dblink->error);
