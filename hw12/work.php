@@ -1,10 +1,10 @@
 <?php		
 		echo '<div class="workMain">';
 			echo '<div class="workBanner">';
-				echo '<div class="workItem"><a href="nkapoor.tx@gmail.com">Email</a></div>';
-				echo '<div class="workItem"><a href="https://github.com/AlphaOmegaBetaSin">Github</a></div>';
-				echo '<div class="workItem"><a href="https://tinyurl.com/2m77h5c9">Link to Resume</a></div>';
-				echo '<div class="workItem"><a href="https://tinyurl.com/35kjk8c4">LinkedIn</a></div>
+				echo '<div class="workItem"><a href="XXXX@gmail.com">Email</a></div>';
+				echo '<div class="workItem"><a href="https://github.com/XXXX">Github</a></div>';
+				echo '<div class="workItem"><a href="https://tinyurl.com/XXXX">Link to Resume</a></div>';
+				echo '<div class="workItem"><a href="https://tinyurl.com/XXXX">LinkedIn</a></div>
 			</div>';
 			
 		echo '<div class="clearFloat"></div>';
